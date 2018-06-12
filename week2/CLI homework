@@ -1,0 +1,5 @@
+To creat hidden file we use the command: touch .test.txt
+to show the hidden file we use the command: ls -a
+**********
+to create multiple nested directories : mkdir these/folders/are/just/for/fun
+**********
