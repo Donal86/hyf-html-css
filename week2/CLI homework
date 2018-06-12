@@ -3,3 +3,5 @@ to show the hidden file we use the command: ls -a
 **********
 to create multiple nested directories : mkdir -p these/folders/are/just/for/fun
 **********
+Verifying number in the file fun: 18
+*********
