@@ -124,7 +124,6 @@ img {
 
 #grid-floats .grid-item:nth-child(1) img, #grid-floats .grid-item:nth-child(14) img,
 #grid-flex .grid-item:nth-child(1) img, #grid-flex .grid-item:nth-child(14) img {
-   left: 0;
    animation-name: drive;
    animation-duration: 8s;
    animation-timing-function: ease-in-out;
