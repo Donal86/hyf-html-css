@@ -1,0 +1,39 @@
+1. Create a directory & empty file:
+
+Donald@Donald MINGW64 ~/Desktop
+$ mkdir test
+
+Donald@Donald MINGW64 ~/Desktop
+$ cd test
+
+Donald@Donald MINGW64 ~/Desktop/test
+$ touch blank
+
+*****************************
+2. Second request:
+
+Donald@Donald MINGW64 ~/Desktop/test
+$ for i in {1..5}; do echo "hello" >>greetings.txt;done
+
+Donald@Donald MINGW64 ~/Desktop/test
+$ cat greetings.txt > 1.txt > 2.txt > 3.txt > 4.txt > 5.txt
+
+*****************************
+3. Third Request:
+
+Donald@Donald MINGW64 ~/Desktop/test
+$ echo "cat" "dogs" "hamsters" >> pets.txt
+
+*****************************
+4. fourth request:
+
+Donald@Donald MINGW64 ~/Desktop/test
+$ echo "cat" "ls" "pwd" >> commands.txt
+
+******************************
+5. fifth request:
+
+Donald@Donald MINGW64 ~/Desktop/test
+$ sort -u commands.txt pets.txt > lovelycommands.txt
+
+
